@@ -1,0 +1,34 @@
+body, html {
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #70c5ce;
+    }
+
+    #game-container {
+      position: relative;
+      width: 320px;
+      height: 480px;
+      overflow: hidden;
+      background-color: #70c5ce;
+      border: 1px solid #000;
+    }
+
+    #score-board {
+      position: absolute;
+      top: 10px;
+      width: 100%;
+      text-align: center;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      font-size: 20px;
+    }
+
+    canvas {
+      display: block;
+      background-color: #70c5ce;
+    }
